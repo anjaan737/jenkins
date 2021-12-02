@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int n = 11;
+	int n = 31;
 	int sp = n/2;
 	int st = 1;
 

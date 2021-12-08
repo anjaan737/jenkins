@@ -33,7 +33,7 @@ pipeline {
 							Node { label 'worker' }
 							reuseNode true
 							image 'ubuntu'
-						}
+						
 					}
 					steps {
 						echo "Integration test executing..."

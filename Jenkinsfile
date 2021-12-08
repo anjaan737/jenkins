@@ -30,7 +30,7 @@ pipeline {
 				}
 				stage("Integration Test"){
 					agent{
-						docker{
+						UbuntuWorker{
 							reuseNode true
 							image 'ubuntu'
 						}
